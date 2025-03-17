@@ -12,7 +12,7 @@ const Sidebar = () => {
   const navigate = useNavigate();
 
   return (
-    <div className="w-[25%] h-full p-2 gap-2 text-white lg:flex flex-col">
+    <div className="w-[25%] h-full p-2 gap-2 text-white lg:flex flex-col max-sm:hidden">
       <div className="bg-[#121212] h-[15%] rounded flex flex-col justify-around">
         <div onClick={()=>navigate('/')} className="flex items-center gap-3 pl-8 cursor-pointer">
           <IoHome className="w-6" />

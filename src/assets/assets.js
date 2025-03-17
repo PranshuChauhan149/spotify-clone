@@ -1,11 +1,21 @@
 import img1 from './img1.jpg'
-import song1 from  "./song1.mp3"
-import song2 from  "./song2.mp3"
-import song3 from  "./song3.mp3"
-import song4 from  "./song4.mp3"
-import song5 from  "./song5.mp3"
-import song6 from  "./song6.mp3"
-import song7 from  "./song7.mp3"
+import song1 from  "./Believer.mp3"
+import song2 from  "./Check_it_out.mp3"
+import song3 from  "./CHEQUES.mp3"
+import song4 from  "./DAKU.mp3"
+import song5 from  "./Elevated.mp3"
+import song6 from  "./Excuses.mp3"
+import song7 from  "./Excuses.mp3"
+
+import img12 from "./img8-BWXJRBGY.jpg"
+import img2 from "./img9-DijbgrFn.jpg"
+import img3 from "./img16-DWuxGd7D.jpg"
+import img4 from "./img10-DXTKT6rL.jpg"
+import img5 from "./img11-DRy6GsCC.jpg"
+import img6 from "./img15-PZ2n19tw.jpg"
+
+
+
 export const songsData = [
   {
     id: 0,
@@ -44,7 +54,7 @@ export const songsData = [
     id: 4,
     name: "Song Three",
     image: img1,
-    audio: song5, // ✅ Correct path
+    audio: song5,
     desc: "Put a smile on your face with these happy tunes",
     duration: "3:00"
   }
@@ -75,44 +85,44 @@ export const albumsData = [
   {
     id:0,
     name: "Top 50 Global",
-    image : img1,
+    image : img12,
     desc : "Your weekly update of the most played tracks",
     bgColor : "#2a4365"
   },
   {
     id:1,
-    name: "Top 50 Global",
-    image : img1,
+    name: "Top 50 India",
+    image : img2,
     desc : "Your weekly update of the most played tracks",
-    bgColor : "#2a4365"
+    bgColor : "#004D00"
   },
   {
     id:2,
-    name: "Top 50 Global",
-    image : img1,
+    name: "Trending India",
+    image : img3,
     desc : "Your weekly update of the most played tracks",
-    bgColor : "#2a4365"
+    bgColor : "#9B59B6"
   },
   {
     id:3,
-    name: "Top 50 Global",
-    image : img1,
+    name: "Trending Global",
+    image : img4,
     desc : "Your weekly update of the most played tracks",
-    bgColor : "#2a4365"
+    bgColor : "#E60000"
   },
   {
     id:4,
-    name: "Top 50 Global",
-    image : img1,
+    name: "Mega Hits",
+    image : img5,
     desc : "Your weekly update of the most played tracks",
-    bgColor : "#2a4365"
+    bgColor : "#333333"
   },
   {
     id:5,
-    name: "Top 50 Global",
-    image : img1,
+    name: "Happy Favorites",
+    image : img6,
     desc : "Your weekly update of the most played tracks",
-    bgColor : "#2a4365"
+    bgColor : "#FFD700"
   }
 ]
 
@@ -129,7 +139,7 @@ export const albumsSong = [
  },
  {
   id : 1,
-  name : "Song One",
+  name : "Song two",
   image : img1,
   file : song2,
   desc:"Put a smile on your face with these happy tunes",
@@ -138,7 +148,7 @@ export const albumsSong = [
  },
  {
   id : 2,
-  name : "Song One",
+  name : "Song three",
   image : img1,
   file : song3,
   desc:"Put a smile on your face with these happy tunes",
@@ -147,7 +157,7 @@ export const albumsSong = [
  },
  {
   id : 3,
-  name : "Song One",
+  name : "Song four",
   image : img1,
   file : song4,
   desc:"Put a smile on your face with these happy tunes",
@@ -156,7 +166,7 @@ export const albumsSong = [
  },
  {
   id : 4,
-  name : "Song One",
+  name : "Song five",
   image : img1,
   file : song5,
   desc:"Put a smile on your face with these happy tunes",
@@ -165,7 +175,7 @@ export const albumsSong = [
  },
  {
   id : 5,
-  name : "Song One",
+  name : "Song six",
   image : img1,
   file : song6,
   desc:"Put a smile on your face with these happy tunes",
@@ -174,7 +184,7 @@ export const albumsSong = [
  },
  {
   id : 6,
-  name : "Song One",
+  name : "Song seven",
   image : img1,
   file : song7,
   desc:"Put a smile on your face with these happy tunes",
